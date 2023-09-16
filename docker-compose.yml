@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    image: my-tailwind-ts-app # Replace with your actual image name
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: always # Automatically restart the container if it stops
