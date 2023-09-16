@@ -1,0 +1,19 @@
+{
+  "name": "my-tailwind-ts-project",
+  "version": "1.0.0",
+  "description": "A web project using Tailwind CSS and TypeScript",
+  "scripts": {
+    "start": "node server.js",
+    "build": "tsc --outDir public",
+    "build:css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "author": "THA",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "tailwindcss": "^2.2.7"
+  }
+}
